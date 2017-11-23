@@ -1,0 +1,8 @@
+{
+  "form-autofill": [
+    "browser/extensions/formautofill/formautofill.properties"
+  ],
+  "onboarding": [
+    "browser/extensions/onboarding/onboarding.properties"
+  ]
+}

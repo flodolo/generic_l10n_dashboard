@@ -1,0 +1,16 @@
+{
+  "name": "generic-l10n-dashboard",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flodolo/generic_l10n_dashboard"
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "datatables.net-bs": "~1.10.16",
+    "jquery": "~1.12.4"
+  },
+  "scripts": {
+    "postinstall": "./app/scripts/npm_install.sh"
+  }
+}
