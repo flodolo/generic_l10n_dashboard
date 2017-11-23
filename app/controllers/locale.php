@@ -1,6 +1,5 @@
 <?php
 
-use Cache\Cache;
 
 $html_detail_body = '';
 foreach ($results[$requested_locale] as $module_name => $data) {
