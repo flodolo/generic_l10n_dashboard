@@ -1,8 +1,11 @@
 {
-  "form-autofill": [
-    "browser/extensions/formautofill/formautofill.properties"
-  ],
-  "onboarding": [
-    "browser/extensions/onboarding/onboarding.properties"
-  ]
+    "activity-stream": [
+        "browser/chrome/browser/activity-stream/newtab.properties"
+    ],
+    "form-autofill": [
+        "browser/extensions/formautofill/formautofill.properties"
+    ],
+    "onboarding": [
+        "browser/extensions/onboarding/onboarding.properties"
+    ]
 }

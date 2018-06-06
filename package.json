@@ -8,7 +8,7 @@
   "dependencies": {
     "bootstrap": "~3.3.7",
     "datatables.net-bs": "~1.10.16",
-    "jquery": "~1.12.4"
+    "jquery": "~3.3.1"
   },
   "scripts": {
     "postinstall": "./app/scripts/npm_install.sh"
