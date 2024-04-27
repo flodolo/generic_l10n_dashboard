@@ -4,12 +4,11 @@
 	<meta charset=utf-8>
 	<title>L10N Dashboard - <?php echo $page_title; ?></title>
     <link rel="stylesheet" href="assets/npm/css/bootstrap.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="assets/npm/css/bootstrap-theme.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/npm/css/dataTables.bootstrap.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" media="all" />
     <script src="assets/npm/js/jquery.min.js"></script>
 	<script src="assets/npm/js/bootstrap.min.js"></script>
-    <script src="assets/npm/js/jquery.dataTables.js"></script>
+    <script src="assets/npm/js/dataTables.min.js"></script>
     <script src="assets/npm/js/dataTables.bootstrap.js"></script>
     <script src="assets/js/main.js"></script>
 </head>
