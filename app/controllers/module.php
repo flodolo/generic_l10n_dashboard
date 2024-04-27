@@ -7,11 +7,11 @@ foreach ($supported_locales as $supported_locale) {
         ? round($data['translated'] / $data['total'] * 100, 0)
         : 0;
     if ($data['percentage'] == 100) {
-        $class = 'success';
+        $class = 'table-success';
     } elseif ($data['percentage'] > 50) {
-        $class = 'warning';
+        $class = 'table-warning';
     } else {
-        $class = 'danger';
+        $class = 'table-danger';
     }
     $html_detail_body .= "
 	<tr class=\"{$class}\">

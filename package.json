@@ -6,9 +6,9 @@
     "url": "https://github.com/flodolo/generic_l10n_dashboard"
   },
   "dependencies": {
-    "bootstrap": "~3.3.7",
-    "datatables.net-bs": "~1.10.16",
-    "jquery": "~3.3.1"
+    "bootstrap": "~5.3.3",
+    "datatables.net-bs": "~2.0.5",
+    "jquery": "~3.7.1"
   },
   "scripts": {
     "postinstall": "./app/scripts/npm_install.sh"
