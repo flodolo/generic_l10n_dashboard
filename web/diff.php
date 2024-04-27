@@ -42,9 +42,9 @@ foreach ($tmx_reference as $entity => $translation) {
     }
 }
 
-$missing_strings = [];
 $cache_id = "missing_locale_{$requested_locale}";
 if (! $missing_strings = Cache::getKey($cache_id)) {
+    $missing_strings = [];
     // Include locale cache
     $cache_file = "{$path}{$requested_locale}/cache_{$requested_locale}_gecko_strings.php";
     if (! file_exists($cache_file)) {

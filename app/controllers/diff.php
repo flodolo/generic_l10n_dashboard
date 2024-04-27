@@ -8,11 +8,11 @@ foreach ($missing_strings[$requested_module] as $file_name => $missings_in_file)
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" href="#' . $id . '"> ' . $file_name . '</a>
-                    <span class="badge">' . count($missings_in_file) . '</span>
+                    <a data-bs-toggle="collapse" href="#' . $id . '" aria-expanded="true"> ' . $file_name . '</a>
+                    <span class="badge rounded-pill text-bg-primary">' . count($missings_in_file) . '</span>
                 </h4>
             </div>
-            <div id="' . $id . '" class="panel-collapse collapse in">
+            <div id="' . $id . '" class="collapse show">
                 <ul class="list-group">
     ';
 
