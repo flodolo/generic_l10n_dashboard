@@ -1,11 +1,14 @@
 /* CSS for main view */
 
+html {
+    font-size: 15px;
+}
+
 .list {
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 8px;
     line-height: 1.7;
-    font-size: 16px;
     width: 800px;
     margin: 6px 0 24px;
 }
