@@ -58,6 +58,8 @@ $results = [];
 foreach ($locales_list as $supported_locale) {
     $cache_id = "results_locale_{$supported_locale}";
     if (! $results[$supported_locale] = Cache::getKey($cache_id)) {
+        $results[$supported_locale] = [];
+
         // Include locale cache
         $cache_file = "{$path}{$supported_locale}/cache_{$supported_locale}_gecko_strings.php";
         if (! file_exists($cache_file)) {

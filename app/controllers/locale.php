@@ -1,6 +1,5 @@
 <?php
 
-
 $html_detail_body = '';
 foreach ($results[$requested_locale] as $module_name => $data) {
     $data['percentage'] = $data['total'] != 0

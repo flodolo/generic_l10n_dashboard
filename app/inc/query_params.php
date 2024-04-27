@@ -28,10 +28,10 @@ foreach ($supported_locales as $supported_locale) {
     $html_supported_locales .= "<a href=\"?locale={$supported_locale}\">{$supported_locale_label}</a> ";
 }
 
-if (! file_exists("{$root_folder}/app/data/list.json")) {
-    exit('Folder list.json does not exist.');
+if (! file_exists("{$root_folder}/app/config/list.json")) {
+    exit('File app/config/list.json does not exist.');
 }
-$json_file = file_get_contents("{$root_folder}/app/data/list.json");
+$json_file = file_get_contents("{$root_folder}/app/config/list.json");
 $list_data = json_decode($json_file, true);
 
 $requested_module = isset($_REQUEST['module'])
